@@ -17,33 +17,59 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Arif Wider",
-    "honorificPrefix": "Prof. Dr.",
-    "url": "https://arifwider.com/",
-    "image": "https://arifwider.com/assets/portrait-1200.jpg",
-    "jobTitle": "Professor of Software Engineering",
-    "affiliation": {
-      "@type": "CollegeOrUniversity",
-      "name": "HTW Berlin, University of Applied Sciences",
-      "url": "https://www.htw-berlin.de/"
-    },
-    "knowsAbout": [
-      "Software Engineering",
-      "Data Mesh",
-      "Data Products",
-      "Data Contracts",
-      "Enterprise Data Architecture",
-      "Data Governance",
-      "AI Governance",
-      "Responsible AI"
-    ],
-    "sameAs": [
-      "https://www.htw-berlin.de/hochschule/personen/person/?eid=12850",
-      "https://www.linkedin.com/in/arifwider/",
-      "https://scholar.google.com/citations?user=3Jl5pxMAAAAJ",
-      "https://www.researchgate.net/profile/Arif-Wider",
-      "https://www.thoughtworks.com/de-de/profiles/service-line-leads/arif-wider"
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://arifwider.com/#person",
+        "name": "Arif Wider",
+        "honorificPrefix": "Prof. Dr.",
+        "url": "https://arifwider.com/",
+        "image": "https://arifwider.com/assets/portrait-1200.jpg",
+        "jobTitle": "Professor of Software Engineering",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "HTW Berlin, University of Applied Sciences",
+          "url": "https://www.htw-berlin.de/"
+        },
+        "knowsAbout": [
+          "Software Engineering",
+          "Data Mesh",
+          "Data Products",
+          "Data Contracts",
+          "Enterprise Data Architecture",
+          "Data Governance",
+          "AI Governance",
+          "Responsible AI"
+        ],
+        "sameAs": [
+          "https://www.htw-berlin.de/hochschule/personen/person/?eid=12850",
+          "https://www.linkedin.com/in/arifwider/",
+          "https://scholar.google.com/citations?user=3Jl5pxMAAAAJ",
+          "https://www.researchgate.net/profile/Arif-Wider",
+          "https://www.thoughtworks.com/de-de/profiles/service-line-leads/arif-wider"
+        ]
+      },
+      {
+        "@type": "Article",
+        "headline": "Data Contracts",
+        "url": "https://martinfowler.com/articles/data-contracts.html",
+        "datePublished": "2026-11-18",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Simon Harrer"
+          },
+          {
+            "@id": "https://arifwider.com/#person"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "martinfowler.com",
+          "url": "https://martinfowler.com/"
+        },
+        "@id": "https://martinfowler.com/articles/data-contracts.html"
+      }
     ]
   }
   </script>
